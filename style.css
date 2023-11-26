@@ -1,110 +1,100 @@
 body{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
-
+/* HEADER */
 .container{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
 }
+    #header{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 42px;
+        text-decoration-line: underline;
+        color: black;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #menu{
+        text-align: right;
+        margin-top: 50px;
+    }
+        #menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0%;
+        }
+        #menu li{
+            display: inline-block;
+            margin-left: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            color: black;
+        }
+            a{
+                color: black;
+                text-decoration: none;
+            }
 
-#header{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 42px;
-    text-decoration-line: underline;
-    color: black;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+/* APRESENTAÇÃO */
+    #headerCta h1{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        color: #575455
+    }
+    #headerCta p{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: #575455
+    }
+    #buttonCta{
+        background: #1F7CFF;
+        border-radius: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 10px 25px 10px 25px;
+    }
+    #headerImg{
+        margin-left: 42px;
+    }
+        #headerImg img{
+            width: 100%;
+        }
 
-#menu{
-    text-align: right;
-    margin-top: 50px;
-}
-
-#menu ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0%;
-    
-}
-
-#menu li{
-    display: inline-block;
-    margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: black;
-    
-}
-
-a{
-    color: black;
-    text-decoration: none;
-}
-
-#buttonCta{
-    background: #1F7CFF;
-    border-radius: 50px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 10px 25px 10px 25px;
-}
-
-#headerCta p{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    color: #575455
-}
-
-#headerCta h1{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: #575455
-}
-
-#headerImg{
-    margin-left: 42px;
-}
-
-#headerImg img{
-    width: 100%;
-}
-
-.headerLogo{
-    text-align: center;
-}
-
+/* CLIENTES */
 #clients{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+    #headerClientText{
+        color: #070F18;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+    }
+        .headerLogo{
+            text-align: center;
+        }
 
-#headerClientText{
-    color: #070F18;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
-}
-
+/* SERVIÇOS */
 h2.red{
     color: #F75C4E;
     text-align: center;
@@ -114,7 +104,6 @@ h2.red{
     font-weight: 700;
     line-height: normal;
 }
-
 h1.black{
     color: #000;
     text-align: center;
@@ -125,7 +114,6 @@ h1.black{
     line-height: normal;
     margin-top: 0;
 }
-
 p.black{
     color: #575455;
     text-align: center;
@@ -136,80 +124,170 @@ p.black{
     line-height: 32px;
 }
 
+/* JOBS */
 .textCenter{
     text-align: center;
 }
+    #services .textCenter h3{
+        color: #070F18;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    #services .textCenter p{
+        color: #575455;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
 
-#services .textCenter h3{
-    color: #070F18;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-#services .textCenter p{
-    color: #575455;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-}
-
-#contactImg img{
-    width: 100%;
-}
-
-#contactForm{
-    margin-left: 75px;
-    text-align: left;
-}
-
+/* FORMULARIO */
 #contact{
     margin-top: 100px;
 }
+    #contactImg img{
+        width: 100%;
+    }
+    #contactForm{
+        margin-left: 75px;
+        text-align: left;
+    }
+        #contactForm input{
+            background: #F5F6FB;
+            color: #575455;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 24px;
+            padding: 15px 30px 15px 30px;
+            border-radius: 50px;
+            border: 0;
+            width: 70%;
+        }
+            #contactForm button{
+                background: #1F7CFF;
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                padding: 15px 30px 15px 30px;
+                border-radius: 50px;
+                border: 0;
+                width: 40%;
+            }
 
-#contactForm input{
-    background: #F5F6FB;
-    color: #575455;
-    
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 24px;
-    padding: 15px 30px 15px 30px;
-    border-radius: 50px;
-    border: 0;
-    width: 70%;
-}
-
-#contactForm button{
-    background: #1F7CFF;
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
-    padding: 15px 30px 15px 30px;
-    border-radius: 50px;
-    border: 0;
-    width: 40%;
-}
-
+/* PORTFÓLIOS */
 #portTitle{
     margin-top: 150px;
 }
+    .portImg{
+        padding: 20px;
+    }
+        .portImg img{
+            width: 100%;
+        }
 
-.portImg img{
-    width: 100%;
+@media (max-width: 760px){
+body{
+    margin-left: 5%;
+    margin-right: 5%;
 }
+/* HEADER */
+    #header{
+        font-size: 25px;
+    }
+    #menu{
+        margin-top: 15px;
+    }
+        #menu li{
+            padding-top: 5px;
+        }
+/* APRESENTAÇÃO */
+    #headerCta h1{
+        font-size: 22px;
+    }
+    #headerCta p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #buttonCta{
+        margin-left: 8px;
+    }
+/* CLIENTES */
+    #clients{
+        display: block;
+        margin-bottom: 20px;
+    }
+    #headerClientText{
+        text-align: center;
+        font-size: 20px;
+    }
+    .headerLogo{
+        margin: 15px;
+    }
+        .headerLogo img{
+            width: 75px;
+            padding-top: 8px;
+        }
+/* SERVIÇOS */
+    #services h2{
+        font-size: 36px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #services h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #services p{
+        font-size: 13px;
+    }
+/* JOBS */
 
-.portImg{
-    padding: 20px;
+/* FORMULARIO */
+    #contact{
+        display: block;
+        margin-top: 15px;
+    }
+        #contactForm{
+            margin-left: 0px;
+        }
+            #contactForm h2{
+                font-size: 28px;
+            }
+            #contactForm h1{
+                font-size: 25px;        
+            }
+            #contactForm p{
+                font-size: 14px;        
+            }
+                .red{
+                    margin-bottom: 5px;
+                }
+            #contactForm input{
+                margin: 5px 0 0 25px;
+            }
+            #contactForm button{
+                margin: 15px 0 0 110px;
+            }
+
+/* PORTFÓLIOS */
+    #portTitle{
+        margin-top: 15px;
+    }
+        #portTitle h2{
+            font-size: 25px;           
+        }
+        #portTitle h1{
+            font-size: 22px;           
+        }
 }
