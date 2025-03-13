@@ -26,5 +26,5 @@ Link: https://projeto-portfolio-maria.netlify.app/
 <img src="/readme/responsividade-desktop.png" width="720px">
 
 ### Responsividade Mobile:
-<img src="/readme/responsividade-mobile-1.png" width="480px"><br>
-<img src="/readme/responsividade-mobile-2.png" width="480px">
+<img src="/readme/responsividade-mobile-1.jpg" width="480px"><br>
+<img src="/readme/responsividade-mobile-2.jpg" width="480px">
