@@ -278,20 +278,26 @@
                     width: 90px;
                 }
 
-/* SERVIÇOS */
-    #services h2{
-        font-size: 36px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    #services h1{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    #services p{
-        font-size: 13px;
-    }
-/* JOBS */
+            /* SERVIÇOS */
+            .services{
+                gap: 15px;
+            }
+                .services h2.red{
+                    font-size: 26px;
+                    margin: 0;
+                }
+                .services h1.black{
+                    font-size: 25px;
+                }
+                .services p.black{
+                    font-size: 12px;
+                }
+                .textCenter h3{
+                    font-size: 12px;
+                }
+                .textCenter p{
+                    font-size: 10px;
+                }
 
 /* FORMULARIO */
     #contact{
