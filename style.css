@@ -236,14 +236,19 @@
                     display: flex;
                     align-items: center;
                     font-size: 30px;
+                    padding: 0 0 0 15px;
                 }
-                .menu ul li{
-                    display: flex;
-                    align-items: center;
+                .menu{
+                    padding: 0 15px 0 0;
                 }
-                    .menu ul li a{
-                        font-size: 12px;
+                    .menu ul li{
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
                     }
+                        .menu ul li a{
+                            font-size: 12px;
+                        }
 /* APRESENTAÇÃO */
     #headerCta h1{
         font-size: 22px;
