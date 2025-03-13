@@ -223,21 +223,27 @@
                 width: 100%;
             }
 
-@media (max-width: 760px){
-body{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-/* HEADER */
-    #header{
-        font-size: 25px;
+@media (max-width: 767px){
+    body{
+        margin: 0;
+        background-color: #FFFFFF;
     }
-    #menu{
-        margin-top: 15px;
-    }
-        #menu li{
-            padding-top: 5px;
+        #container{
+            padding: 10px 10px 10px 10px;
         }
+            /* HEADER */
+                .header{
+                    display: flex;
+                    align-items: center;
+                    font-size: 30px;
+                }
+                .menu ul li{
+                    display: flex;
+                    align-items: center;
+                }
+                    .menu ul li a{
+                        font-size: 12px;
+                    }
 /* APRESENTAÇÃO */
     #headerCta h1{
         font-size: 22px;
