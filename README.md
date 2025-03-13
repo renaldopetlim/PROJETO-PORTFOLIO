@@ -1,5 +1,6 @@
 # Projeto Portfólio Maria
 
+## Descrição:
 Este é o repositório do portfólio da programadora fictícia Maria. O site apresenta seus serviços, clientes e projetos realizados.
 
 ## Tecnologias Usadas:
@@ -22,7 +23,8 @@ Caso tenha dúvidas ou sugestões, entre em contato através de renaldopetlim@gm
 Link: https://projeto-portfolio-maria.netlify.app/
 
 ### Responsividade Desktop:
-<img src="/readme/responsividade-desktop.png" width="480px">
+<img src="/readme/responsividade-desktop.png" width="720px">
 
 ### Responsividade Mobile:
-<img src="/readme/responsividade-mobile.png" width="480px">
+<img src="/readme/responsividade-mobile-1.png" width="480px"><br>
+<img src="/readme/responsividade-mobile-2.png" width="480px">
