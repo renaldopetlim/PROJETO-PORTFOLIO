@@ -249,6 +249,7 @@
                     .menu ul li a{
                         font-size: 12px;
                     }
+
             /* APRESENTAÇÃO */
             .introduction h1{
                 font-size: 20px;
@@ -263,22 +264,20 @@
                 margin: 0 0 0 10px;   
             }
 
-/* CLIENTES */
-    #clients{
-        display: block;
-        margin-bottom: 20px;
-    }
-    #headerClientText{
-        text-align: center;
-        font-size: 20px;
-    }
-    .headerLogo{
-        margin: 15px;
-    }
-        .headerLogo img{
-            width: 75px;
-            padding-top: 8px;
-        }
+            /* CLIENTES */
+            .clients{
+                display: grid;
+                grid-template-rows: auto 1fr;
+                gap: 15px;
+                margin: 10px 0 10px 0;
+            }
+                .client-text{
+                    text-align: center;
+                }
+                .clients-logo img{
+                    width: 90px;
+                }
+
 /* SERVIÇOS */
     #services h2{
         font-size: 36px;
