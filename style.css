@@ -112,56 +112,57 @@
         grid-template-rows: auto 1fr;
         gap: 25px;
     }
-        .red{
-            color: #F75C4E;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
+            .red{
+                color: #F75C4E;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            h1.black{
+                color: #000;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 0;
+            }
+            p.black{
+                color: #575455;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+        .articles{
+            display: flex;
         }
-        h1.black{
-            color: #000;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-size: 40px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            margin-top: 0;
-        }
-        p.black{
-            color: #575455;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 32px;
-        }
-
-/* JOBS */
-.textCenter{
-    text-align: center;
-}
-    #services .textCenter h3{
-        color: #070F18;
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-    #services .textCenter p{
-        color: #575455;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-    }
+            .textCenter{
+                text-align: center;
+            }
+                .textCenter h3{
+                    color: #070F18;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding: 10px 0 10px 0;
+                }
+                .textCenter p{
+                    color: #575455;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
 
 /* FORMULARIO */
 #contact{
