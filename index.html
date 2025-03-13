@@ -80,21 +80,24 @@
     </section>
 
     <!-- FORMULÁRIO -->
-    <div id="container" class="contact">
-        <div id="contactImg">
-            <img src="img/form.svg">
+    <section id="container" class="contact">
+        <div class="contactImg">
+            <img src="img/form.svg" alt="Formulario de Contato">
         </div>
-        <div id="contactForm">
+        <div class="contactForm">
             <h2 class="red"> Economize o Seu Tempo </h2>
             <h1 class="black"> Ganhe Mais Dinheiro </h1>
-            <p class="black"> Digite aqui seu endereço de e-mail. Eu entrarei em contato para fornecer um diagnóstico gratuito. </p>
+            <p class="black"> Digite aqui seu endereço de e-mail. 
+                Eu entrarei em contato para fornecer um diagnóstico gratuito.
+            </p>
             <form action="https://formspree.io/f/myyqnvzq" method="POST">
-                <input placeholder="Seu E-Mail" type="text" name="contactEmail" required="required">
-                <p></p>
-                <button type="submit">Enviar</button>
+                <div class="form-flex">
+                    <input placeholder="Seu E-Mail" type="text" name="contactEmail" required>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </div>
-    </div>
+    </section>
 
     <!-- PORTFÓLIOS -->
     <div class="container" id="portTitle">

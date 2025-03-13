@@ -164,44 +164,51 @@
                     font-weight: 400;
                 }
 
-/* FORMULARIO */
-#contact{
-    margin-top: 100px;
-}
-    #contactImg img{
-        width: 100%;
+        /* FORMULARIO */
+    .contact{
+        margin: 75px 0 0 0;
     }
-    #contactForm{
-        margin-left: 75px;
-        text-align: left;
-    }
-        #contactForm input{
-            background: #F5F6FB;
-            color: #575455;
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: normal;
-            line-height: 24px;
-            padding: 15px 30px 15px 30px;
-            border-radius: 50px;
-            border: 0;
-            width: 70%;
+        .contactImg img{
+            width: 100%;
         }
-            #contactForm button{
-                background: #1F7CFF;
-                color: #FFF;
-                text-align: center;
-                font-family: 'Poppins', sans-serif;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 24px;
-                padding: 15px 30px 15px 30px;
-                border-radius: 50px;
-                border: 0;
-                width: 40%;
+        .contactForm{
+            margin: 0 0 0 50px;
+            text-align: left;
+        }
+            .contactForm form{
+                padding: 15px 0 0 0;
             }
+                    .form-flex{
+                        display: flex;
+                        gap: 15px;
+                    }
+                .contactForm input{
+                    background: #F5F6FB;
+                    color: #575455;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 24px;
+                    padding: 15px 30px 15px 30px;
+                    border-radius: 50px;
+                    border: 0;
+                    width: 70%;
+                }
+                .contactForm button{
+                    background: #1F7CFF;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    padding: 15px 30px 15px 30px;
+                    border-radius: 50px;
+                    border: 0;
+                    width: 30%;
+                }
 
 /* PORTFÓLIOS */
 #portTitle{
